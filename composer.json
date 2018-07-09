@@ -11,7 +11,6 @@
       "homepage": "https://loadbrain.weberr.de",
       "role": "Developer"
     },
-
     "require": {
       "contao/core-bundle": "~3.5 || 4.*",
       "contao-community-alliance/composer-plugin": "~2.4 || ~3.0"
