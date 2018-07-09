@@ -1,8 +1,8 @@
 {
-  "name": "vendor/rwcards",
+  "name": "loadbrain/contao-rwcards",
   "type": "contao-module",
   "description": "E-Card module for Contao 4.x",
-  "keywords": ["e-card", "ecards"],
+  "keywords": ["e-card", "ecards", "contao"],
   "homepage": "https://github.com/loadbrain/rwcards-contao4.git",
   "license": "CC BY-NC-SA 4.0",
   "authors": [{
