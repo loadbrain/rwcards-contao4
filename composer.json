@@ -1,22 +1,32 @@
 {
-    "name": "vendor/rwcards",
-    "type": "contao-module",
-    "license": "CC BY-NC-SA 4.0",
+  "name": "vendor/rwcards",
+  "type": "contao-module",
+  "description": "E-Card module for Contao 4.x",
+  "keywords": ["e-card", "ecards"],
+  "homepage": "https://github.com/loadbrain/rwcards-contao4.git",
+  "license": "CC BY-NC-SA 4.0",
+  "authors": [{
+      "name": "Ralf Weber",
+      "email": "ralf@weberr.be",
+      "homepage": "https://loadbrain.weberr.de",
+      "role": "Developer"
+    },
+
     "require": {
-        "contao/core-bundle": "~3.5 || 4.*",
-        "contao-community-alliance/composer-plugin": "~2.4 || ~3.0"
+      "contao/core-bundle": "~3.5 || 4.*",
+      "contao-community-alliance/composer-plugin": "~2.4 || ~3.0"
     },
     "extra": {
-        "contao": {
-            "sources": {
-                "": "system/modules/rwcards"
-            },
-            "runonce": [
-                "config/config.php"
-            ]
-        }
+      "contao": {
+        "sources": {
+          "": "system/modules/rwcards"
+        },
+        "runonce": [
+          "config/config.php"
+        ]
+      }
     },
     "replace": {
-        "contao-legacy/rwcards": "self.version"
+      "contao-legacy/rwcards": "self.version"
     }
-}
+  }
