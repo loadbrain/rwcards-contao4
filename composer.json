@@ -10,15 +10,7 @@
       "email": "ralf@weberr.be",
       "homepage": "https://loadbrain.weberr.de",
       "role": "Developer"
-<<<<<<< HEAD
     }],
-=======
-<<<<<<< HEAD
-    }],
-=======
-    },
->>>>>>> 1f7f84fe4a97b629a3fb79a2528e541df0e28273
->>>>>>> 18475a932c1d51e9f64fe7e06217524551079c9d
     "require": {
       "contao/core-bundle": "~3.5 || 4.*",
       "contao-community-alliance/composer-plugin": "~2.4 || ~3.0"
