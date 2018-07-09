@@ -1,5 +1,5 @@
 {
-  "name": "vendor/rwcards",
+  "name": "loadbrain/rwcards",
   "type": "contao-module",
   "description": "E-Card module for Contao 4.x",
   "keywords": ["e-card", "ecards"],
