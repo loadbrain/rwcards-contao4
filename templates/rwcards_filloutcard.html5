@@ -73,10 +73,11 @@ if ( count($this->data[0]) > 0)
 		<div id="lessReceivers" style="visibility:hidden;"><?php echo $this->rwcards_fillout_cards_remove_receiver;?></div>
 
 		<?php if (isset($this->fields['rwCardsCaptcha'])): ?>
-		<div class="widget">
-			<div><label for="ctrl_captcha"><?php echo $this->fields['rwCardsCaptcha']->generateQuestion(); ?><span class="mandatory">*</span></label></div>
-		  <?php echo $this->fields['rwCardsCaptcha']->generateWithError(); ?>
-		</div>
+		<!-- <div class="widget">
+					<div><label for="ctrl_captcha"><?php echo $this->fields['rwCardsCaptcha']->generateQuestion(); ?><span class="mandatory">*</span></label></div>
+				  <?php echo $this->fields['rwCardsCaptcha']->generateWithError(); ?>
+				</div> -->
+		<?php echo( $this->fields['rwCardsCaptcha'])->parse(); ?>
 		<?php endif; ?>
 		<?php
 		}
