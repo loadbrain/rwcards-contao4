@@ -111,7 +111,7 @@ $GLOBALS['TL_DCA']['tl_rwcards'] = array(
         'description' => array(
             'label'     => &$GLOBALS['TL_LANG']['tl_rwcards']['description'],
             'inputType' => 'textarea',
-            'eval'      => array( 'rte' => 'tinyFlash' ),
+            'eval'      => array( 'rte' => 'tinyMCE' ),
             'sql'       => "text NOT NULL"
         ),
         'published'   => array(
